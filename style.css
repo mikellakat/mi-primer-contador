@@ -1,0 +1,29 @@
+/* Esto es CSS: El lenguaje de diseño */
+body {
+    background-color: #1a1a2e; /* Azul oscuro profundo */
+    color: white; /* Letras blancas */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color: #0f3460;
+    color: #e94560;
+    border: 2px solid #e94560;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e94560;
+    color: white;
+    transform: scale(1.1); /* Efecto de aumento al pasar el mouse */
+}
